@@ -1,1 +1,1 @@
-# gymme-landing
+# gymme-landing-starter
