@@ -21,7 +21,7 @@ module.exports = {
         primary: {
           100: '#a5ffce',
           200: '#4ae290',
-          300: '25c870',
+          300: '#25c870',
         },
         neutral: {
           100: '#ffffff',

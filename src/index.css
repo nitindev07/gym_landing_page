@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html{
+    @apply scroll-smooth
+}
   body {
     @apply font-secondary text-neutral-400 bg-[#e5e5e5];
   }

@@ -7,16 +7,12 @@ import YogaImg from '../src/assets/img/workouts/yoga.png';
 import FullBodyImg from '../src/assets/img/workouts/full-body.png';
 import FitnessImg from '../src/assets/img/workouts/fitness.png';
 import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
-import CommunityImg1 from '../src/assets/img/community/img1.png';
-import CommunityImg2 from '../src/assets/img/community/img2.png';
-import CommunityImg3 from '../src/assets/img/community/img3.png';
-import CommunityImg4 from '../src/assets/img/community/img4.png';
 import JoinImg from '../src/assets/img/join/woman.png';
 // icons
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
 import PriceIcn from '../src/assets/img/pricing/icons/price.svg';
-import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
+
 import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
 
 export const header = {
@@ -124,37 +120,6 @@ export const pricing = {
         { name: '50% off drinks' },
       ],
       delay: 1000,
-    },
-  ],
-};
-
-export const community = {
-  icon: CommunityIcn,
-  title: 'Community',
-  testimonials: [
-    {
-      image: CommunityImg1,
-      name: 'Mark A.',
-      message:
-        '“Great location, great price and great, helpful people. What to want more?”',
-    },
-    {
-      image: CommunityImg2,
-      name: 'Lauren K.',
-      message:
-        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
-    },
-    {
-      image: CommunityImg3,
-      name: 'Jhon D.',
-      message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
-    },
-    {
-      image: CommunityImg4,
-      name: 'Anne R.',
-      message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
     },
   ],
 };
