@@ -6,11 +6,11 @@ const NavMobile = ({nav}) => {
         <div className='h-full flex flex-col items-center justify-center'>
         <ul className='flex flex-col text-body-md items-center w-full justify-center text-white gap-8 mb-14'>
           <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Workouts</a></li>
-          <li><a href="/">Pricing</a></li>
-          <li><a href="/">Community</a></li>
-          <li><a href="/">FAQ</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#workout">Workouts</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          
+          <li><a href="#faq">FAQ</a></li>
         </ul>
         <div className='flex justify-center gap-16'>
           <button className='btn-lg font-bold text-white'>LOG IN</button>
