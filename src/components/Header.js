@@ -28,7 +28,7 @@ const Header = () => {
           <button className='btn-primary px-6 btn-sm font-bold py-2 rounded-sm'>SIGN UP</button>
         </div>
         </div>
-        <NavMobile nav={nav} />
+        <NavMobile nav={nav} setNav={setNav} />
        
     </header>
     
