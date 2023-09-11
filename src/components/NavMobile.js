@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NavMobile = ({nav}{setNav}) => {
+const NavMobile = ({nav},{setNav}) => {
   return (
     <div onClick={()=>setNav(!nav)} className={`lg:hidden bg-neutral-500 w-full h-0 transition-all fixed ${ nav ? 'min-h-screen': 'min-h-0'} overflow-hidden top-0 left-0 right-0 -bottom-12 duration-300 -z-10 `}>
         <div className='h-full flex flex-col items-center justify-center'>
